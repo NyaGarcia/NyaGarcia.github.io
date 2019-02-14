@@ -1,0 +1,142 @@
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<html>
+  <head>
+    <title>Práctica PPT Estefanía</title>
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+    <title>Rock, paper, Scissors By Estefanía</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./assets/img/icons/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./assets/img/icons/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./assets/img/icons/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/img/icons/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./assets/img/icons/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./assets/img/icons/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./assets/img/icons/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./assets/img/icons/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/img/icons/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./assets/img/icons/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/img/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./assets/img/icons/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/img/icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/img/icons/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="./assets/img/icons/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
+    <h1>Rock Paper Scissors</h1>
+    <div class="result-container" name="result">
+      <img
+        id="playerChoiceImg"
+        class="result-image"
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        alt=""
+      />
+      <img
+        id="cpuChoiceImg"
+        class="result-image"
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        alt=""
+      />
+    </div>
+    <div class="result-score">
+      <span class="result-score--player">Jugador:</span>
+      <span id="playerScore" class="result-score--player-score">0</span>
+      <span class="result-score--cpu">CPU:</span>
+      <span id="cpuScore" class="result-score--cpu-score">0</span>
+    </div>
+    <div class="result-phrase">
+      <h3 id="resultPhrase"></h3>
+    </div>
+    <form id="frmGame" action="">
+      <button type="button" value="rock" id="rockBtn">
+        <img
+          class="imagen"
+          src="./assets/img/rock.png"
+          name="piedra"
+          alt="Piedra"
+          value="rock"
+        />
+      </button>
+      <button type="button" value="paper" id="paperBtn">
+        <img
+          class="imagen"
+          src="./assets/img/paper.png"
+          name="papel"
+          alt="Papel"
+          value="paper"
+        />
+      </button>
+      <button type="button" value="scissors" id="scissorsBtn">
+        <img
+          class="imagen"
+          src="./assets/img/scissors.png"
+          name="tijeras"
+          alt="Tijeras"
+          value="scissors"
+        />
+      </button>
+    </form>
+    <span id="restart" class="restart-btn">Reiniciar</span>
+  </body>
+  <script src="controller.js" defer></script>
+  <script src="app.js" defer></script>
+</html>
