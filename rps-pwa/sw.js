@@ -8,8 +8,7 @@ const URLS = [
   'app.js',
   'assets/img/paper.png',
   'assets/img/rock.png',
-  'assets/img/scissors.png',
-  'assets/img/icons/android-icon-144x144.png'
+  'assets/img/scissors.png'
 ];
 
 self.addEventListener('install', event => {
