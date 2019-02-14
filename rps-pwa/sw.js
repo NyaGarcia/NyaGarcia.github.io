@@ -1,7 +1,7 @@
 const CACHE_NAME = 'RPS-game-v1';
 
 const URLS = [
-  '/',
+  '/rps-pwa',
   'index.html',
   'controller.js',
   'assets/style.css',
