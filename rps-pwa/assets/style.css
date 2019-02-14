@@ -4,7 +4,7 @@ body {
   background-image: linear-gradient(#40e0d0, #3b0160);
 }
 
-form {
+.choice-container {
   position: relative;
   left: 28%;
 }
@@ -42,6 +42,17 @@ span {
   font-weight: bolder;
 }
 
+.btn {
+  height: 100px;
+  width: 100px;
+  margin: 25px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background: transparent;
+  display: inline-block;
+}
+
 .result-container {
   position: relative;
   left: 20%;
@@ -76,8 +87,8 @@ span {
 }
 
 .imagen {
-  height: 90%;
-  width: 90%;
+  height: 90px;
+  width: 90px;
 }
 
 .restart-btn {
@@ -90,7 +101,8 @@ span {
   border-radius: 20px;
 }
 
-.restart-btn:hover {
+.restart-btn:hover,
+.btn:hover {
   background-color: #320256;
   cursor: pointer;
 }

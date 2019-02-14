@@ -32,7 +32,7 @@
       "density": "2.0"
     },
     {
-      "src": "rps-pwa/assets/img/icons/android-icon-144x144.png",
+      "src": "./android-icon-144x144.png",
       "sizes": "144x144",
       "type": "image/png",
       "density": "3.0"

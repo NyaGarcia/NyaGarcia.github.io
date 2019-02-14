@@ -1,7 +1,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <html>
   <head>
-    <title>Práctica PPT Estefanía</title>
     <link rel="stylesheet" type="text/css" href="./assets/style.css" />
     <title>Rock, paper, Scissors By Estefanía</title>
     <link
@@ -106,35 +105,35 @@
     <div class="result-phrase">
       <h3 id="resultPhrase"></h3>
     </div>
-    <form id="frmGame" action="">
-      <button type="button" value="rock" id="rockBtn">
+    <div class="choice-container">
+      <span class="btn" name="rock" id="rockBtn">
         <img
           class="imagen"
           src="./assets/img/rock.png"
-          name="piedra"
+          name="rock"
           alt="Piedra"
           value="rock"
         />
-      </button>
-      <button type="button" value="paper" id="paperBtn">
+      </span>
+      <span class="btn" name="paper" id="paperBtn">
         <img
           class="imagen"
           src="./assets/img/paper.png"
-          name="papel"
+          name="paper"
           alt="Papel"
           value="paper"
         />
-      </button>
-      <button type="button" value="scissors" id="scissorsBtn">
+      </span>
+      <span class="btn" name="scissors" id="scissorsBtn">
         <img
           class="imagen"
           src="./assets/img/scissors.png"
-          name="tijeras"
+          name="scissors"
           alt="Tijeras"
           value="scissors"
         />
-      </button>
-    </form>
+      </span>
+    </div>
     <span id="restart" class="restart-btn">Reiniciar</span>
   </body>
   <script src="controller.js" defer></script>

@@ -45,13 +45,12 @@ const controller = (function() {
   }
 
   function getPlayerChoice(event) {
-    const choice = event.target.value;
+    const choice = event.target.name;
     setPlayerChoice(choice);
     checkWinner(choice);
   }
 
   function setPlayerChoice(choice) {
-    console.log(choice);
     gui.playerChoice.src = PATH + choice + '.png';
   }
 
@@ -102,14 +101,12 @@ const controller = (function() {
     window.addEventListener('load', function() {
       navigator.serviceWorker.register('/rps-pwa/sw.js').then(
         function(registration) {
-          // Registration was successful
           console.log(
             'ServiceWorker registration successful with scope: ',
             registration.scope
           );
         },
         function(err) {
-          // registration failed :(
           console.log('ServiceWorker registration failed: ', err);
         }
       );
