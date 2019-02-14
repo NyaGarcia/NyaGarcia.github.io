@@ -100,7 +100,7 @@ const controller = (function() {
 
   function _loadServiceWorker() {
     window.addEventListener('load', function() {
-      navigator.serviceWorker.register('/sw.js').then(
+      navigator.serviceWorker.register('/rps-pwa/sw.js').then(
         function(registration) {
           // Registration was successful
           console.log(
