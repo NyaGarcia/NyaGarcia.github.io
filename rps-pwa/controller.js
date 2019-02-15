@@ -99,7 +99,7 @@ const controller = (function() {
 
   function _loadServiceWorker() {
     window.addEventListener('load', function() {
-      navigator.serviceWorker.register('/rps-pwa/sw.js').then(
+      navigator.serviceWorker.register('./sw.js').then(
         function(registration) {
           console.log(
             'ServiceWorker registration successful with scope: ',

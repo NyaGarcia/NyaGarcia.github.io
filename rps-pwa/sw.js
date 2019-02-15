@@ -1,14 +1,14 @@
 const CACHE_NAME = 'RPS-game-v1';
 
 const URLS = [
-  '/rps-pwa',
-  'index.html',
-  'controller.js',
-  'assets/style.css',
-  'app.js',
-  'assets/img/paper.png',
-  'assets/img/rock.png',
-  'assets/img/scissors.png'
+  './',
+  './index.html',
+  './controller.js',
+  './assets/style.css',
+  './app.js',
+  './assets/img/paper.png',
+  './assets/img/rock.png',
+  './assets/img/scissors.png'
 ];
 
 self.addEventListener('install', event => {
